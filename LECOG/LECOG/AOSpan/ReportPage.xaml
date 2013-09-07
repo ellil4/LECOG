@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="LECOG.AOSpan.ReportPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="779">
+
+    <Canvas Height="600" HorizontalAlignment="Left" Name="canvas1" VerticalAlignment="Top" Width="779" Background="White" MouseUp="canvas1_MouseUp">
+        <TextBlock Height="33" HorizontalAlignment="Left" Margin="0,196,0,0" Name="amTextBlock1" Text="TextBlock" VerticalAlignment="Top" FontSize="22" Width="779" TextAlignment="Center" IsHitTestVisible="False" />
+        <TextBlock FontSize="22" Height="33" HorizontalAlignment="Left" Margin="0,314,0,0" Name="amTextBlock2" Text="TextBlock" TextAlignment="Center" VerticalAlignment="Top" Width="779" IsHitTestVisible="False" Canvas.Left="0" Canvas.Top="-52" Foreground="Red" />
+        <Label Canvas.Left="318" Canvas.Top="430" Content="按鼠标键继续" Height="40" Name="label1" FontSize="22" Width="150" />
+    </Canvas>
+</UserControl>

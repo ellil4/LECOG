@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="LECOG.UIComponents.CompBooleanJudge"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="779" Width="779" Height="600">
+    <Canvas Height="600" Name="amCanvas" Width="779">
+        <Label Canvas.Left="180" Canvas.Top="282" Content="正确
+               " FontSize="44" Height="74" Name="amLabelRight" Width="97" MouseEnter="amLabelRight_MouseEnter" MouseLeave="amLabelRight_MouseLeave" MouseUp="amLabelRight_MouseUp" MouseDown="amLabelRight_MouseDown" />
+        <Label Canvas.Right="182" Canvas.Top="282" Content="错误
+               " FontSize="44" Height="74" Name="amLabelWrong" Width="97" MouseUp="amLabelWrong_MouseUp" MouseEnter="amLabelWrong_MouseEnter" MouseLeave="amLabelWrong_MouseLeave" MouseDown="amLabelWrong_MouseDown" />
+        <TextBlock Canvas.Left="0" Canvas.Top="125" Height="70" Name="amTextBlock" Text="TextBlock" FontSize="44" TextAlignment="Center" Width="779" />
+    </Canvas>
+</UserControl>

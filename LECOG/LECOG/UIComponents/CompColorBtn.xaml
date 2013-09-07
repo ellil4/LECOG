@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="LECOG.UIComponents.CompColorBtn"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="53" d:DesignWidth="300" BorderBrush="Black" BorderThickness="2">
+    <Grid>
+        <Label Content="汉字" Height="53" HorizontalAlignment="Left" Name="amLabel" VerticalAlignment="Top" Width="300" BorderBrush="White" BorderThickness="2" FontSize="22" Padding="7" Background="White" MouseEnter="amLabel_MouseEnter" MouseLeave="amLabel_MouseLeave" MouseUp="amLabel_MouseUp" MouseDown="amLabel_MouseDown" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="LECOG.PaperFold.CompNextPahseShade"
+             xmlns:ctb="clr-namespace:LECOG.UIComponents"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="820" Background="#D3000000">
+    <Grid Background="{x:Null}" Width="820" Height="600">
+        <Label Content="继续测验" Height="53" HorizontalAlignment="Left" Margin="338,432,0,0" Name="amLabelBtn" VerticalAlignment="Top" Width="137" Foreground="White" FontSize="31" Background="#01000000" MouseEnter="amLabelBtn_MouseEnter" MouseLeave="amLabelBtn_MouseLeave" MouseUp="amLabelBtn_MouseUp" />
+        <TextBlock Height="144" HorizontalAlignment="Left" Margin="106,153,0,0" Name="textBlock1" Text="第一阶段测试结束，点击“继续测验”按钮进入第二阶段" VerticalAlignment="Top" Width="606" FontSize="31" TextAlignment="Center" Foreground="White" TextWrapping="Wrap" />
+    </Grid>
+</UserControl>

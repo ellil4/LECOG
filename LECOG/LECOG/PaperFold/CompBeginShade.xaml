@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="LECOG.PaperFold.CompBeginShade"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="820" Background="White">
+    <Grid Width="820" Height="600">
+        <TextBlock Height="131" HorizontalAlignment="Left" Margin="39,40,0,0" Name="textBlock1" Text="本测试中，题目将模拟一个在折叠的纸上穿孔的过程。题目将给出一张正方形纸的折叠过程。经过若干次折叠之后，纸片上将被穿孔。这些孔将穿透所有经折叠之后叠加在该位置的纸。最后题目将要求您想象将这张纸彻底展开后，小孔在纸面分布的情形。根据您的推测，在5个备选答案中选出您认为正确的分布形式，并在该图上点击鼠标。题目示意如下：" VerticalAlignment="Top" Width="740" FontSize="20" TextWrapping="Wrap" />
+        <Image Height="106" HorizontalAlignment="Left" Margin="39,177,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="740" Source="/LECOG;component/PaperFold/example1.PNG" />
+        <TextBlock FontSize="20" Height="32" HorizontalAlignment="Left" Margin="59,277,0,0" Name="textBlock2" Text="下图逐步展现了纸片的折叠, 穿孔, 展开的过程, 请结合该图仔细体会题目的意义。" TextWrapping="Wrap" VerticalAlignment="Top" Width="724" />
+        <Image Height="162" HorizontalAlignment="Left" Margin="39,310,0,0" Name="image2" Source="/LECOG;component/PaperFold/example2.PNG" Stretch="Fill" VerticalAlignment="Top" Width="740" />
+        <Label Content="点此开始测验" Height="44" HorizontalAlignment="Left" Margin="326,508,0,0" Name="amLabelBtn" VerticalAlignment="Top" Width="159" FontSize="25" MouseEnter="amLabelBtn_MouseEnter" MouseLeave="amLabelBtn_MouseLeave" MouseUp="amLabelBtn_MouseUp" />
+        <TextBlock FontSize="20" Height="32" HorizontalAlignment="Left" Margin="44,471,0,0" Name="textBlock3" Text="题目共2轮，每轮10题，每轮答题时间3分钟，如您提前做完，请等待测验自动跳转" TextWrapping="Wrap" VerticalAlignment="Top" Width="729" />
+    </Grid>
+</UserControl>

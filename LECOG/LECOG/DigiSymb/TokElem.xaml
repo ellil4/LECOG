@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="LECOG.DigiSymb.TokElem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="76" d:DesignWidth="76" Background="White">
+    <Grid>
+        <Image Height="76" HorizontalAlignment="Left" Name="amImage" Stretch="Fill" VerticalAlignment="Top" Width="76" IsHitTestVisible="False" />
+        <Label Content="" Height="76" HorizontalAlignment="Center" Name="amLabel" VerticalAlignment="Top" Width="40" FontSize="50" IsHitTestVisible="False" />
+    </Grid>
+</UserControl>

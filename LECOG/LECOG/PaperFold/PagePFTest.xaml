@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="LECOG.PaperFold.PagePFTest"
+             xmlns:ctb="clr-namespace:LECOG.UIComponents"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="779" IsHitTestVisible="True" Background="White">
+    <Canvas Height="600" Name="amCanvas" Width="779" Background="White" Focusable="True" IsHitTestVisible="True">
+        <Image Canvas.Left="79" Canvas.Top="83" Height="100" Name="imageI1" Stretch="Fill" Width="100" IsHitTestVisible="False" />
+        <Image Canvas.Left="210" Canvas.Top="83" Height="100" IsHitTestVisible="False" Name="imageI2" Stretch="Fill" Width="100" />
+        <Image Canvas.Left="341" Canvas.Top="83" Height="100" IsHitTestVisible="False" Name="imageI3" Stretch="Fill" Width="100" />
+        <Image Canvas.Left="472" Canvas.Top="83" Height="100" IsHitTestVisible="False" Name="imageI4" Stretch="Fill" Width="100" />
+        <Image Canvas.Left="79" Canvas.Top="255" Height="100" IsHitTestVisible="True" Name="imageS1" Stretch="Fill" Width="100" />
+        <Image Canvas.Left="210" Canvas.Top="255" Height="100" IsHitTestVisible="True" Name="imageS2" Stretch="Fill" Width="100" />
+        <Image Canvas.Left="341" Canvas.Top="255" Height="100" IsHitTestVisible="True" Name="imageS3" Stretch="Fill" Width="100" />
+        <Image Canvas.Left="472" Canvas.Top="255" Height="100" IsHitTestVisible="True" Name="imageS4" Stretch="Fill" Width="100" />
+        <Image Canvas.Left="603" Canvas.Top="255" Height="100" IsHitTestVisible="True" Name="imageS5" Stretch="Fill" Width="100" />
+        <ctb:CompColorBtn Canvas.Left="246" Canvas.Top="408" x:Name="compColorBtnPrev" Width="100" />
+        <ctb:CompColorBtn Canvas.Left="430" Canvas.Top="408" x:Name="compColorBtnNext" Width="100" />
+        <TextBlock Canvas.Left="350" Canvas.Top="483" Height="34" Name="amPageMark" Text="TextBlock" FontSize="22" TextAlignment="Center" IsHitTestVisible="False" Width="74" />
+        <Rectangle Canvas.Left="79" Canvas.Top="365" Height="15" Name="rectangle1" Stroke="White" Width="100" Fill="White" IsHitTestVisible="False" />
+        <Rectangle Canvas.Left="210" Canvas.Top="365" Fill="White" Height="15" Name="rectangle2" Stroke="White" Width="100" IsHitTestVisible="False" />
+        <Rectangle Canvas.Left="341" Canvas.Top="365" Fill="White" Height="15" Name="rectangle3" Stroke="White" Width="100" IsHitTestVisible="False" />
+        <Rectangle Canvas.Left="472" Canvas.Top="365" Fill="White" Height="15" Name="rectangle4" Stroke="White" Width="100" IsHitTestVisible="False" />
+        <Rectangle Canvas.Left="603" Canvas.Top="365" Fill="White" Height="15" Name="rectangle5" Stroke="White" Width="100" IsHitTestVisible="False" />
+    </Canvas>
+</UserControl>
